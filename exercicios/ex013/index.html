@@ -8,6 +8,7 @@
         table {
             text-align: center;
             border: 2px solid grey;
+            border-collapse: collapse;
             height: 100px;
             width: 300px;
         }
@@ -17,7 +18,14 @@
             height: 50px;
             width: 100px;
         }
+
+        tr:nth-child(even) {
+            background-color: aqua;
+        }      
         
+        table tr:hover {
+            background-color: burlywood;
+        }
     </style>
 </head>
 <body>
@@ -31,6 +39,14 @@
         <tr>
             <td>Matheus</td>
             <td>23</td>
+        </tr>
+        <tr>
+            <td>Jubileu</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>jagunço</td>
+            <td>40</td>
         </tr>
     </table>
 </body>
